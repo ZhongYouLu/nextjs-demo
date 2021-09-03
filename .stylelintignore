@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+.next/
+.vercel/
+
+# 其他檔名
+*.js
+*.ts
+*.tsx
+

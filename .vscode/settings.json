@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Tell VSCode to use Prettier as default file formatter
+  "editor.formatOnSave": true, // Tell VSCode to format files on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+
+  // 使用 Stylelint, 因此停用VS Code 的 CSS/SCSS 檢查
+  "css.validate": false,
+  "scss.validate": false,
+
+  // 拼音檢查
+  "cSpell.words": ["commitlint", "stylelint"]
+}

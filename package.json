@@ -1,12 +1,16 @@
 {
-  "name": "blog",
+  "name": "nextjs-demo",
   "version": "0.1.0",
   "private": true,
+  "description": "Next.js Demo",
+  "author": "ZhongYouLu <mk816017@gmail.com>",
+  "repository": "ZhongYouLu/nextjs-demo",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint --dir src"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -14,9 +18,25 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@types/react": "17.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "sass": "^1.39.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.20.1",
     "typescript": "4.4.2"
   }
 }
